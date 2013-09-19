@@ -1,0 +1,20 @@
+{
+  "appenders": [
+    { 
+      "category": "\\index.js", 
+      "type": "file", 
+      "filename": "${yyyy-MM-dd}.log", 
+      "layout": { 
+        "type": "messagePassThrough" 
+      } ,
+        "disabled":true
+    },
+      {
+          "type":"console"
+      }
+  ],
+  
+  "levels": {
+    "tests":  "WARN"
+  }
+}

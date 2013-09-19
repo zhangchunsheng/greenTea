@@ -1,0 +1,13 @@
+{
+  "name": "greenTea",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "mysql": "*",
+    "mysql-queques": "*",
+    "generic-pool": "*",
+    "async": "*",
+    "redis": "*",
+    "log4js": "~0.6.8"
+  }
+}
